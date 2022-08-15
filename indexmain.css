@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* header start */
+
+.asos{
+    background: rgb(31, 31, 31);
+    height: 450px;
+}
+
+.asos .nav{
+     padding: 25px 0 ;
+    height: 150px;
+    display: flex ;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.asos .row{ 
+    padding-top: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.asos .row li a{
+    font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+ 
+.asos .row li a:hover{
+    color: aquamarine;
+}
+
+.header_asos{
+    text-align: center;
+}
+
+.header_asos h1{
+    padding-top: 40px;
+    font-family: 'Roboto';
+    color: red;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header_asos p{
+    padding-top: 20px;
+    font-size: 25px ;
+    font-weight: 600;
+    font-family:  'Roboto' ;
+    color: #FFFFFF;
+}
+
+/* HEADER FINISH */
+
+
+/* SECTION START */
+
+section{
+    padding-bottom: 50px;
+    background-image: url(./section.jpg);
+    background-size: cover;
+    
+}
+
+.box1{
+    padding: 50px 0;
+   display: flex;
+   justify-content: center;
+
+}
+
+.box2{
+  
+    display: flex;
+    justify-content: center;
+ 
+ }
+
+ section a{
+     
+    padding-right: 40px;
+ }
+
+ /* SECTION FINISH */
+
+
+
+ /* FOOTER START */
+
+
+ footer{
+    background-color: black;
+    
+    height: 150px;
+ }
+ .footer_1{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+ .footer_1 p{
+    padding: 23px 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 14px;
+  
+    color: #FFFFFF;
+ }
+
+ .footer_1 a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 900;
+    color: darkred;
+ }
+
+ .footer_1 a:hover{
+    color: rgb(18, 176, 18);
+ }

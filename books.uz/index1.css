@@ -1,0 +1,155 @@
+
+*{
+margin: auto;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+
+.asos .nav{
+    padding: 25px 0 ;
+   height: 150px;
+   display: flex ;
+   justify-content: space-around;
+   text-align: center;
+   background-color: rgb(0, 0, 0);
+
+}
+
+.asos .row{ 
+   padding-top: 45px;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   width: 800px;
+}
+
+.asos .row li a{
+   font-family: 'Lato';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 30px;
+ line-height: 14px;
+
+ color: #FFFFFF;
+}
+
+.asos .row li a:hover{
+   color: aquamarine;
+}
+.menu {
+    width: 1400px;
+    height: 1450px;
+    justify-content: center;
+}
+
+.box1 {
+    /* width: 1100px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 {
+    width: 1060px;
+    height: 500px;
+    background-image: url(./1614723891_106-p-foni-dlya-literaturi-128\ 1.jpg);
+    margin:  60px auto 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+
+}
+.box3{
+    width: 1060px;
+    height: 330px;
+    display: flex;
+    margin-left: 170px;
+    justify-content: space-between;
+ 
+
+
+}
+h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+padding-left: 38px ;
+padding-top: 20px;
+
+
+
+color: #000000;
+
+    padding-top: 10px o ;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    width: 792px;
+    height: 62px;
+    left: 304px;
+    top: 350px;
+    color: #494949;
+    padding-top: 100px;
+}
+
+.box1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0;
+    line-height: 23px;
+    color: #000000;
+
+}
+.box4{
+
+    width: 330px;
+    height: 330px;
+    left: 170px;
+    top: 800px;    
+    background: #C4C4C4;
+   margin: 80px 0;
+    overflow: auto;
+}
+.box4 p{
+    padding:10px 38px 0;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.past{
+    width: 1400px;
+    height: 260px;
+    background: #C4C4C4;
+    text-align: center;
+}
+.past_1{
+    width: 1400px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.past_1 p{
+    font-family : 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+}

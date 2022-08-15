@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+
+ 
+}
+
+
+.asos .nav{
+  padding: 25px 0 ;
+ height: 150px;
+ display: flex ;
+ justify-content: space-around;
+ text-align: center;
+ background-color: rgb(0, 0, 0);
+
+}
+
+.asos .row{ 
+ padding-top: 45px;
+ text-align: center;
+ display: flex;
+ justify-content: space-between;
+ width: 800px;
+}
+
+.asos .row li a{
+ font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+
+.asos .row li a:hover{
+ color: aquamarine;
+}
+header {
+  text-align: center;
+  background: url(./header_bg_image\ 1.jpg);
+  background-size: cover;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+
+}
+
+header nav .logo {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  padding-top: 15px;
+  color: #CB0A15;
+}
+
+header nav ul li a {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #515151;
+  padding: 18px 26px;
+  display: block;
+
+}
+
+header nav ul li a:hover {
+  background-color: #515151;
+  color: white;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+
+  color: #CB0A15;
+ margin-top: 215px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+p {
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #515151;
+  padding-bottom: 275px;
+  text-align: center;
+
+}
+.b{
+  color: #000000;
+}
+
+/* =====================  MEIN  ================== */
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+main .bir{
+ width:539px;
+
+}
+main .bir h3{
+  margin-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+
+color: #2C2C2C;
+
+}
+main .ikki h4{
+  margin-left: 30px;
+  padding-bottom: 10px;
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+main .ikki{
+ width: 539px;
+ margin-left: 30px;
+
+
+}
+main .ikki .box{
+  display: flex;
+  margin-bottom: 30px;
+  height: 150px;
+}
+main .ikki .box p{
+  margin-left: 30px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #919191;
+}
+main .bir .text p{
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+color: #919191;
+}
+
+
+/* ===================FOOTER================== */
+
+footer{
+  display: flex;
+  
+  width: 100%;
+  justify-content: center;
+  margin-top: 0px;
+}
+.footer_1 .a{
+  padding-right: 50px;
+}
+.footer_1{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  
+}
+footer .footer_1 .a h2{
+ margin-bottom: 20px;
+ font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+footer .footer_1 .a ul li{
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #A5A5A5;
+
+}
+footer .footer_1 .a{
+  margin-top: 48px;
+  margin-bottom: 50px;
+}
+.letter{
+  color: red;
+}
